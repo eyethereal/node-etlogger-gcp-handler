@@ -1,0 +1,30 @@
+{
+  "name": "etlogger-gcp-handler",
+  "version": "0.1.0",
+  "description": "ET Logger log handler for the Google Cloud Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyethereal/node-etlogger-gcp-handler.git"
+  },
+  "keywords": [
+    "utilities",
+    "logging",
+    "gcp"
+  ],
+  "author": "Tom Seago <tom@eyethereal.com> (https://eyethereal.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eyethereal/node-etlogger-gcp-handler/issues"
+  },
+  "homepage": "https://github.com/eyethereal/node-etlogger-gcp-handler#readme",
+  "peerDependencies": {
+    "etlogger": "^0.6.2"
+  },
+  "dependencies": {
+    "@google-cloud/logging": "^9.0.1"
+  }
+}
